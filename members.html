@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Members</title>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+    <header class="header">
+        <nav class="navbar" aria-label="Main navigation">
+            <a href="index.html" class="nav-logo" onclick="if (window.location.pathname.endsWith('index.html') || window.location.pathname.endsWith('/')) { event.preventDefault(); window.location.reload(); }">
+                <img src="../image/logo.jpg" alt="Kamaya Logo">
+            </a>
+            <button class="nav-toggle" type="button" aria-label="Toggle menu" aria-expanded="false">
+                <span class="nav-toggle-bar"></span>
+                <span class="nav-toggle-bar"></span>
+                <span class="nav-toggle-bar"></span>
+            </button>
+            <ul class="nav-menu">
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="about.html">ABOUT</a></li>
+                <li><a href="events.html">EVENTS</a></li>
+                <li><a href="members.html">MEMBERS</a></li>
+                <li><a href="media.html">MEDIA</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="member-section">
+            <div class="member-profile">
+                <div class="member-photo">
+                    <img src="../image/quynh.jpg" alt="Quynh">
+                </div>
+                <div class="member-details">
+                    <h1>Quỳnh</h1>
+                    <h2 class="member-role">Director</h2>
+                    <p>Quỳnh là nhân vật chính trong nhóm với giọng hát ấm áp và phong cách biểu diễn tự nhiên. Cô bắt đầu sự nghiệp âm nhạc từ các buổi live nhỏ và dần thu hút khán giả bằng câu chuyện đời sống và chất indie riêng biệt.</p>
+                    <p>Với niềm đam mê sáng tác, Quỳnh luôn đem đến từng bài hát như một trải nghiệm chân thật, gần gũi và đầy cảm xúc cho người nghe.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="member-section">
+            <div class="member-profile reverse">
+                <div class="member-details reverse-details">
+                    <h1>Minh</h1>
+                    <h2 class="member-role">Head of logistic</h2>
+                    <p>Minh là trái tim sáng tạo phía sau nhiều dự án của nhóm, chịu trách nhiệm định hướng âm thanh và kết cấu bài hát. Anh có tầm nhìn thẩm mỹ riêng biệt và thường mang đến những bản phối vừa thô vừa mượt, rất phù hợp với chất indie đặc trưng.</p>
+                    <p>Khả năng phối ghép nhạc cụ và tạo không khí của Minh đã giúp Kamaya xây dựng được phong cách độc đáo, đồng thời kết nối cảm xúc sâu sắc với người nghe.</p>
+                </div>
+                <div class="member-photo">
+                    <img src="../image/minh.jpg" alt="Minh">
+                </div>
+            </div>
+        </section>
+
+        <section class="member-section">
+            <div class="member-profile">
+                <div class="member-photo">
+                    <img src="../image/duc.jpg" alt="Duc">
+                </div>
+                <div class="member-details">
+                    <h1>Duc</h1>
+                    <h2 class="member-role">Artist</h2>
+                    <p>Duc phụ trách phần guitar và hòa âm, mang tới những giai điệu mộc mạc nhưng đầy cảm xúc. Anh có cách chơi tinh tế, thường tạo điểm nhấn cho các tiết mục bằng các đoạn solo ngắn nhưng ấn tượng.</p>
+                    <p>Với niềm đam mê retro và kỹ thuật vững, Duc là cầu nối giữa ý tưởng sáng tác và bản phối hoàn chỉnh.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="member-section">
+            <div class="member-profile reverse">
+                <div class="member-details reverse-details">
+                    <h1>Phong</h1>
+                    <h2 class="member-role">Artist</h2>
+                    <p>Phong là trống chính của ban nhạc, giữ nhịp và truyền năng lượng cho mỗi buổi diễn. Phong có phong cách chơi mạnh mẽ, uyển chuyển, phù hợp cho cả những bản ballad lẫn tiết mục rock sôi động.</p>
+                    <p>Khả năng điều tiết động lực âm nhạc của Phong giúp cả band giữ nhịp cảm xúc chặt chẽ trên sân khấu.</p>
+                </div>
+                <div class="member-photo">
+                    <img src="../image/phong.jpg" alt="Phong">
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="footer-contact">
+            <p>Contact: kma.kamaya@gmail.com</p>
+            <a href="https://www.facebook.com/messages/t/61567015156430" target="_blank" rel="noopener noreferrer" class="messenger-link" aria-label="Chat on Messenger">
+                <img src="../image/messengerLogo.webp" alt="Messenger icon">
+            </a>
+        </div>
+        <p>© 2026 Kamaya. All rights reserved.</p>
+    </footer>
+    <script src="../js/mobile-menu.js"></script>
+</body>
+</html>
